@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
           walletAddress: walletAddress
       };
 
-      fetch('https://aba-coin.web.app/save-wallet', {  // Замените URL на ваш сервер
+      fetch('http://localhost:3000/api/save-wallet', {  // Замените URL на ваш сервер
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'
