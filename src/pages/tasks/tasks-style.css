@@ -1,0 +1,76 @@
+.text-tasks {
+    text-align: center;
+    font-family: 'Creepster';
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.text-tasks h1 {
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+.scroll-container {
+    width: 96%;
+    height: 61%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #eeff00;
+    padding: 10px;
+    margin-top: 5%;
+}
+
+.scroll-content {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.window {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Creepster';
+    width: 90%;
+    height: 15%;
+    background-color: #ffffff;
+    border: 1px solid #f6ff00;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+.window h2 {
+    margin-right: 10px;
+    margin-left: 3%;
+}
+
+.window button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 10px;
+    height: 100%;
+    width: 20%;
+    background-color: #f6ff00;
+    color: #000000;
+    font-family: 'Creepster';
+    font-size: 20px;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.window button:hover {
+    background-color: #f6ff00;
+}

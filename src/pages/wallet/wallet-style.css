@@ -1,0 +1,81 @@
+.wallet-text {
+    text-align: center;
+    font-family: 'Creepster';
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.wallet-text h1 {
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+
+
+
+.connect-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+} 
+
+
+.modal {
+    font-family: 'Creepster';
+    font-size: 150%;
+    text-align: center;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+ }
+  
+.modal-content {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #eaff00;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.center-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.take-cash {
+    font-family: 'Creepster';
+    font-size: 80%;
+    text-align: center;
+    background-color: #eaff00;
+
+}
+  
+#open-modal-btn {
+    margin-left: 34.2%;
+    margin-top: 7%;
+    background-color: #eaff00;
+    color: #000000;
+    font-family: 'Creepster';
+    font-size: 100%;
+    width: 33%;
+    height: 8%;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+#open-modal-btn:hover {
+    background-color: yellow;
+} 
+
+
+.account {
+    color: #ffffff;
+}

@@ -1,0 +1,13 @@
+.profile {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.profile img {
+    width: 40%;
+    max-width: 222px;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 3%;
+}

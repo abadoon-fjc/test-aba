@@ -1,0 +1,13 @@
+.text-profile {
+    text-align: center;
+    font-family: 'Creepster';
+    font-size: 17px;
+    color: #ffffff;
+  }
+  
+  .text-profile h1 {
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 15%;
+  }
+

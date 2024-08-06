@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html resize="none">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Farm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./pages/farm/farm-style.css" />
+    <link rel="stylesheet" href="./elements/footer-menu/menu.css">
+    <link rel="stylesheet" href="./elements/profile-icon/profile.css">
+    <link rel="stylesheet" href="./elements/background/background-body.css">
+  </head>
+  <body>
+    <div class="game">
+        <div class="profile">
+            <img src="./assets/profile_full_w.png" alt="Image" onclick="goToProfile()">
+            <script>
+            function goToProfile() {
+                window.location.href = './pages/profile/profile.html';
+            }
+            </script>
+        </div>
+        <div class="text-farm">
+          <h1>let's go to farm aba-coins, bro</h1>
+        </div>
+        <div class="header">
+          <h2 class="score" id="score"></h2>
+        </div>
+        <div class="circle">
+          <img id="circle" src="./assets/coin.png" alt="coin" />
+        </div>
+    </div>
+    <script src="./pages/farm/farm.js" defer></script>
+    <script src="./elements/footer-menu/menu.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+.text-farm {
+  text-align: center;
+  font-family: 'Creepster';
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.text-farm h1 {
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 10%;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+  width: 222px;
+  max-width: 222px;
+  height: auto;
+}
+
+.score {
+  color: #fff;
+  text-align: center;
+  font-family: 'Creepster';
+  font-size: 44px;
+  font-weight: 800;
+  user-select: none;
+  margin-bottom: 20px;
+  margin-top: 3%;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle img {
+  width: 70%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 16px 0px rgba(138, 143, 254, 0.05);
+  transition: transform 0.2s ease;
+  --tiltX: 0deg;
+  --tiltY: 0deg;
+  transform: rotateX(var(--tiltX)) rotateY(var(--tiltY));
+}
+
+.plus-one {
+  position: absolute;
+  font-family: 'Creepster';
+  text-shadow: 0px 0px 4px rgba(234, 182, 64, 0.25);
+  font-size: 44px;
+  font-weight: 800px;
+  background: linear-gradient(180deg, #000000 0%, #000000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  pointer-events: none;
+  user-select: none;
+  animation: move-up 2s forwards;
+}
+
+@keyframes move-up {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
