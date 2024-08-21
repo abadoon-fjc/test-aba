@@ -1,3 +1,4 @@
+/*text on farm.js: let's go to farm ABA-coins,bro*/
 .text-farm {
   text-align: center;
   font-family: 'Creepster';
@@ -12,7 +13,7 @@
 }
 
 
-
+/*score*/
 .header {
     display: flex;
     align-items: center;
@@ -36,6 +37,8 @@
   margin-top: 3%;
 }
 
+
+/*coin*/
 .circle {
     display: flex;
     justify-content: center;
@@ -80,4 +83,19 @@
     opacity: 0;
     transform: translateY(-50px);
   }
+}
+
+
+/*today-amount*/
+.today-amount {
+  text-align: right;
+  font-family: 'Creepster';
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.today-amount h3 {
+  margin-right: 5%;
+  margin-left: 3%;
+  margin-top: 5%;
 }

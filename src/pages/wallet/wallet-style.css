@@ -1,3 +1,4 @@
+/* text on wallet page: you can farm real money, bro */
 .wallet-text {
     text-align: center;
     font-family: 'Creepster';
@@ -12,17 +13,77 @@
 }
 
 
-
-.connect-button {
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-} 
-
-
-.modal {
+/* text on wallet page: it's important, bro */
+.info-text {
+    text-align: center;
     font-family: 'Creepster';
-    font-size: 150%;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.info-text h2 {
+    margin-top: 3%;
+}
+
+
+/* button on wallet page: info */
+.info-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-button img {
+    width: 30%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 1%;
+}
+
+/* modal-window in info */
+.modal-info {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-info-content {
+    font-family: 'Creepster';
+    font-size: 100%;
+    background-color: #faff00;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.close-info {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-info:hover,
+.close-info:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* button to module-window on wallet page: connect wallet, bro */
+.modal-connect {
+    font-family: 'Creepster';
+    font-size: 100%;
     text-align: center;
     display: none;
     position: fixed;
@@ -30,14 +91,83 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+ }
+  
+.modal-connect-content {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #faff00;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.connect-center-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.connect {
+    font-family: 'Creepster';
+    font-size: 80%;
+    text-align: center;
+    background-color: #faff00;
+
+}
+  
+.open-modal-connect-btn {
+    margin-left: 15%;
+    margin-top: 15%;
+    background-color: #faff00;
+    color: #000000;
+    font-family: 'Creepster';
+    font-size: 100%;
+    width: 72%;
+    height: 8%;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.open-modal-connect-btn:hover {
+    background-color: rgb(191, 191, 0);
+} 
+
+@media (hover: hover) {
+    open-modal-connect-btn:hover {
+        background-color: rgb(191, 191, 0)
+    }
+}
+
+@media (hover: none) {
+    open-modal-connect-btn:active {
+        background-color: rgb(191, 191, 0)
+    }
+}
+
+
+/* button an module-window on wallet page: wiyhdraw this money, bro */
+.modal {
+    font-family: 'Creepster';
+    font-size: 100%;
+    text-align: center;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
  }
   
 .modal-content {
     border: 2px solid white;
     border-radius: 10px;
-    background-color: #eaff00;
+    background-color: #faff00;
     margin: 15% auto;
     padding: 20px;
     width: 80%;
@@ -53,29 +183,36 @@
     font-family: 'Creepster';
     font-size: 80%;
     text-align: center;
-    background-color: #eaff00;
+    background-color: #faff00;
 
 }
   
-#open-modal-btn {
-    margin-left: 34.2%;
-    margin-top: 7%;
-    background-color: #eaff00;
+.open-modal-btn {
+    margin-left: 15%;
+    margin-top: 5%;
+    background-color: #faff00;
     color: #000000;
     font-family: 'Creepster';
     font-size: 100%;
-    width: 33%;
+    width: 72%;
     height: 8%;
     border: 2px solid white;
     border-radius: 5px;
     cursor: pointer;
 }
   
-#open-modal-btn:hover {
-    background-color: yellow;
+.open-modal-btn:hover {
+    background-color: rgb(191, 191, 0);
 } 
 
+@media (hover: hover) {
+    open-modal-btn:hover {
+        background-color: rgb(191, 191, 0)
+    }
+}
 
-.account {
-    color: #ffffff;
+@media (hover: none) {
+    open-modal-btn:active {
+        background-color: rgb(191, 191, 0)
+    }
 }

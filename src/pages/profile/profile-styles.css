@@ -1,13 +1,98 @@
+/* text: some information about you, bro */
 .text-profile {
-    text-align: center;
-    font-family: 'Creepster';
-    font-size: 17px;
-    color: #ffffff;
-  }
+  text-align: center;
+  font-family: 'Creepster';
+  font-size: 12px;
+  color: #ffffff;
+}
   
-  .text-profile h1 {
-    margin-right: 3%;
-    margin-left: 3%;
-    margin-top: 15%;
-  }
+.text-profile h1 {
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 15%;
+}
 
+/* information about user */
+.profile-info {
+  font-family: 'Creepster';
+  color: #ffffff;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.profile-image {
+  align-items: center;
+  width: 25%;
+  max-width: 99px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin: 0% 36.5%;
+}
+
+.user-details {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+.user-details li {
+  margin-bottom: 10px;
+}
+
+/* for wallet-address */
+.wallet-address-info {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  color: #faff00;
+  cursor: pointer;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.wallet-address-info:hover {
+  color: rgb(191, 191, 0);
+}
+
+/* for notification of copied */
+#copy-notification {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 1);
+  color: #faff00;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Creepster';
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#copy-notification.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#copy-notification:not(.hidden) {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+@media (hover: hover) {
+  wallet-address-info:hover {
+      background-color: rgb(191, 191, 0)
+  }
+}
+
+@media (hover: none) {
+  open-modal-btn:active {
+      background-color: rgb(191, 191, 0)
+  }
+}

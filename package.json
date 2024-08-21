@@ -4,9 +4,13 @@
     "@tonconnect/ui": "^2.0.6",
     "@web3modal/wagmi": "^5.0.11",
     "body-parser": "^1.20.2",
+    "cassandra-driver": "^4.7.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "firebase": "^10.12.5",
+    "firebase-admin": "^12.3.1",
     "fs": "^0.0.1-security",
+    "tonweb": "^0.0.66",
     "viem": "^2.18.8",
     "wagmi": "^2.12.2"
   }
